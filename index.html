@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdz2gLWGAcJfrbHTHW8Nt0PotK6TzxE9s&libraries=places"></script>
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <div class="dropdown" id="dropdown">
+            <button class="dropbtn" id="dropbtn"><img src="./icons/account-white.png" width="48px" alt=""><img src="./icons/fast-forward-down.png" width="24px" alt="" class="down"></button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#home">Option 1</a>
+                <a href="#about">Option 2</a>
+                <a href="#services">Option 3</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Lets create a div with a heading aligned to center saying "WELCOME BACK! LET'S MAKE MAGIC"  and with a input with rounded borders  and a button under that input with create content-->
+<div class="inputForm">
+    <h3 class="magicHead">WELCOME BACK! LET'S MAKE MAGIC</h3>
+    <div class="divfloat">
+    <input type="text" placeholder="ENTER ADDRESS...." id="inputMagic">
+    <a href="./chat.html" id="btn"><span style="position: relative; bottom: 3px; letter-spacing: 2px;">CREATE</span> <img src="./icons/magic-wand-whtie.png" width="24px" alt="" class="wandWhite"></a>
+    <!-- <button type="submit" id="btn"><span style="position: relative; bottom: 3px; letter-spacing: 2px;">CREATE</span> <img src="./icons/magic-wand-whtie.png" width="24px" alt="" class="wandWhite"></button> -->
+</div>
+</div>
+<div class="inputForm">
+    <h3 class="magicHead">PREVIOUS DESCRIPTIONS</h3>
+    <div class="divDesc">
+    <!-- <input type="text" placeholder="ENTER ADDRESS...." id="inputMagic"> -->
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum eum aspernatur quis quisquam odit vitae ad nostrum? Id quam sed adipisci? Saepe impedit fugit, dolorum officia provident voluptate sapiente?</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    <button type="submit" class="btnDesc" id="btnDesc">123 EXAMPLE DR Lorem ipsum dolor sit amet</button>
+    </div>
+<button class="btnShowmore">
+<span class="showmore" id="showMoreBtn">
+    <small>SHOW MORE</small>
+    <img src="./icons/fast-forward-down.png" width="26px" alt="">
+</span>
+</button>
+</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

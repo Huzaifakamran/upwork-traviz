@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <div class="backwards">
+            <a href="./index.html"><img src="./icons/fast-forward-left.png" width="28px" alt=""> <span style="position: relative; bottom: 8px;">PREVIOUS DESCRIPTIONS</span></a>
+        </div>
+        <div class="dropdown" id="dropdown">
+            <button class="dropbtn" id="dropbtn"><img src="./icons/account-white.png" width="48px" alt=""><img src="./icons/fast-forward-down.png" width="24px" alt="" class="down"></button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#home">Option 1</a>
+                <a href="#about">Option 2</a>
+                <a href="#services">Option 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-box-container">
+        <div class="chat-box">
+            <!-- User message -->
+            <div class="user">
+                <img src="./icons/account.png" width="48px" alt="">
+                <div class="text">
+                    <p>123 example dr</p>
+                </div>
+            </div>
+
+            
+            <!-- bot message -->
+            <div class="bot">
+                <img src="./icons/magic-wand-black.png" alt="">
+                <div class="text">
+                    <p>What neighborhood or subdivision is this property located in?</p>
+                </div>
+            </div>
+            <!-- User message -->
+            <div class="user">
+                <img src="./icons/account.png" width="48px" alt="">
+                <div class="text">
+                    <p>maple hurst estates</p>
+                </div>
+            </div>
+
+            
+            <!-- bot message -->
+            <div class="bot">
+                <img src="./icons/magic-wand-black.png" alt="">
+                <div class="text">
+                    <p>What will be the last price?</p>
+                </div>
+            </div>
+            <!-- User message -->
+            <div class="user">
+                <img src="./icons/account.png" width="48px" alt="">
+                <div class="text">
+                    <p>123 example dr</p>
+                </div>
+            </div>
+
+            
+            <!-- bot message -->
+            <div class="bot">
+                <img src="./icons/magic-wand-black.png" alt="">
+                <div class="text">
+                    <p>What neighborhood or subdivision is this property located in?</p>
+                </div>
+            </div>
+            <!-- User message -->
+            <div class="user">
+                <img src="./icons/account.png" width="48px" alt="">
+                <div class="text">
+                    <p>123 example dr</p>
+                </div>
+            </div>
+
+            
+            <!-- bot message -->
+            <div class="bot">
+                <img src="./icons/magic-wand-black.png" alt="">
+                <div class="text">
+                    <p>What neighborhood or subdivision is this property located in?</p>
+                </div>
+            </div>
+        </div></div>
+        <div class="divfloat">
+            <input type="text" placeholder="RESPOND HERE...." id="inputMagic">
+            <!-- <a href="./chat.html" id="btn"><span style="position: relative; bottom: 3px; letter-spacing: 2px;">CREATE</span> <img src="./icons/magic-wand-whtie.png" width="24px" alt="" class="wandWhite"></a> -->
+            <button type="submit" id="btn"><span >ENTER</span> </button>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
