@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/style.css">
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdz2gLWGAcJfrbHTHW8Nt0PotK6TzxE9s&libraries=places"></script>
 </head>
-<body>
+<body data-your-parameter="{{ id }}">
     
 
     <div class="navbar">
         <div class="dropdown" id="dropdown">
-            <button class="dropbtn" id="dropbtn"><img src="./icons/account-white.png" width="48px" alt=""><img src="./icons/fast-forward-down.png" width="24px" alt="" class="down"></button>
+            <button class="dropbtn" id="dropbtn"><img src="../static/icons/account-white.png" width="48px" alt=""><img src="../icons/fast-forward-down.png" width="24px" alt="" class="down"></button>
             <div class="dropdown-content" id="dropdown-content">
                 <a href="#home">Option 1</a>
                 <a href="#about">Option 2</a>
@@ -26,7 +26,7 @@
     <h3 class="magicHead">WELCOME BACK! LET'S MAKE MAGIC</h3>
     <div class="divfloat">
     <input type="text" placeholder="ENTER ADDRESS...." id="inputMagic">
-    <a href="./chat.html" id="btn"><span style="position: relative; bottom: 3px; letter-spacing: 2px;">CREATE</span> <img src="./icons/magic-wand-whtie.png" width="24px" alt="" class="wandWhite"></a>
+    <a href="../static/chat.html" id="btn"><span style="position: relative; bottom: 3px; letter-spacing: 2px;">CREATE</span> <img src="./icons/magic-wand-whtie.png" width="24px" alt="" class="wandWhite"></a>
     <!-- <button type="submit" id="btn"><span style="position: relative; bottom: 3px; letter-spacing: 2px;">CREATE</span> <img src="./icons/magic-wand-whtie.png" width="24px" alt="" class="wandWhite"></button> -->
 </div>
 </div>
@@ -48,11 +48,11 @@
 <button class="btnShowmore">
 <span class="showmore" id="showMoreBtn">
     <small>SHOW MORE</small>
-    <img src="./icons/fast-forward-down.png" width="26px" alt="">
+    <img src="../static/icons/fast-forward-down.png" width="26px" alt="">
 </span>
 </button>
 </div>
 
-    <script src="./app.js"></script>
+    <script src="../static/app.js"></script>
 </body>
 </html>
